@@ -1,6 +1,7 @@
+    #Division assignment operator
 def main():
-    x = 20
-    x /= 4
+    x = 10
+    x /= 2
     print(x)
 
 

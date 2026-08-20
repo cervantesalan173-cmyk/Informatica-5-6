@@ -6,9 +6,9 @@ def main():
     qr.add_data(song)
     qr.make(fit=True)
 
-    ing = qr.make_image(fill_color = "blue", back_color = "white")
-    ing.save("youtube-qr.png")
+    img = qr.make_image(fill_color = "blue", back_color = "white")
+    img.save("youtube-qr.png")
 
 
-    if __name__== "__main_":
-        main()
+if __name__ == "__main_":
+    main()

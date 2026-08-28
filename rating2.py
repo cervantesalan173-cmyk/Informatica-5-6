@@ -7,7 +7,12 @@ def main():
         print("Perfetcion!")
     elif rating > 4:
         print("Excellent!")
-
+    elif rating > 3:
+        print("Good")
+    elif rating > 2:
+        print("Fair")
+    else:
+        print("poor")
 
 
 

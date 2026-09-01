@@ -1,15 +1,21 @@
 import random
 def main():
-    side = input("Guess the landing side: ")
-    flip = random.randint(1, 2)
-    if side == 1
-        print("correct")
-    elif side == 2
-        print("correct")
+    coin = ["heads","tails"]
+    attempts = 3
+    while attempts > 0:
+        flip = random.choice(coin)
+        guess = input("Heads or tails?: ").strip().lower()
 
+        print("The coin landed on", flip)
 
-
-
+        if guess == flip:
+            print("Winner")
+            break
+        else:
+            print("Loser")
+            attempts -= 1
+            print("Attempts left:", attempts)
+            
 if __name__=="__main__":
     main()
 

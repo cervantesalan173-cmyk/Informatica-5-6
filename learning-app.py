@@ -8,10 +8,11 @@ def main():
     streak = 0
     while streak < 3:
 
-        input(f"what is {num1} + {num2}?")
+
 
         num1 = random.randint(10, 99)
         num2 = random.randint(10, 99)
+        ans = input(f"what is {num1} + {num2}?")
 
 
 

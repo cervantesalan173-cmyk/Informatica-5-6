@@ -1,7 +1,9 @@
 def main():
     doctrine = ["follow christ", "baptize", "repent", "recieve holy ghost", "endure" ]
-    for _ in doctrine
+    for _ in range(len(doctrine)):
+        print(f"{_+1}{doctrine[_]}")
 
 
 
 if __name__ == "__main__":
+    main()

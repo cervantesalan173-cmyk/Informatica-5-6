@@ -1,0 +1,7 @@
+def main():
+    doctrine = ["follow christ", "baptize", "repent", "recieve holy ghost", "endure" ]
+    for _ in doctrine
+
+
+
+if __name__ == "__main__":

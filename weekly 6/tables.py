@@ -1,14 +1,11 @@
 def main():
-    number = [1,2,3,4,5,6,7,8,9,10]
+    while True:
+        number = int(input("select a number from 1-10: "))
+        if number <= 10:
+            if number > 0:
+                    for i in range(10):
+                       tatortot = i * number
+                       print(f"{i} times {number} is {tatortot}")
 
-
-    for i in range()
-
-
-
-
-
-
-
-if __name__ ==" __main__":
+if __name__ =="__main__":
     main()

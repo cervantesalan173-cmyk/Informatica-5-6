@@ -1,0 +1,8 @@
+Write a description for a while loop.
+    So  while loop means that while the condtion is "True" it will repeat, to stop the while loop the condition has to be "False" or use a "break" so it has an ending
+
+Write a description for a for loop.
+    it means for every variable in a list for example, it will do the condition you put, for example for every player in the basketball team print their name and number
+
+    Compare a while loop to a for loop.
+        while loop will work if the condition is True, for loop will follow whatever is on a list and print it until the list is over.

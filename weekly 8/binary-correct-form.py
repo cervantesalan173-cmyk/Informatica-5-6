@@ -2,12 +2,11 @@ def main():
     print("welcome.")
     valid_bits = ["0","1"]
     while True:
-
         user_binary_num = input("Enter a binary number: ")
 
         for user_bit in user_binary_num:
             if user_bit in valid_bits:
-                valid_chars += 1
+                valid_chars +=1
         if valid_chars == len(user_binary_num):
             break
         else:

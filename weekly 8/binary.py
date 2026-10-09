@@ -7,7 +7,7 @@ def binary_to_decimal(a):
     binary_num = input(int("Enter a binary number: "))
     if binary_num == a:
         print(num)
-    g
+    
 
 
 
